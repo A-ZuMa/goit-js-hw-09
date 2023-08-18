@@ -1,3 +1,11 @@
+# Модуль 9. Заняття 17. Асинхронність та Date. Проміси
+
+https://www.youtube.com/watch?v=K9TmxFVkp64
+
+# Модуль 9. Заняття 18. Асинхронність та Date. Проміси
+
+https://www.youtube.com/watch?v=NGrWEkbv478
+
 # Parcel template
 
 Этот проект был создан при помощи Parcel. Для знакомства и настройки
