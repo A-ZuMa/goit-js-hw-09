@@ -19,11 +19,11 @@ function handlerSubmit(evt) {
   const amount = Number(elements.amount.value);
   // console.log(amount);
 
-  for (let i = 0; i <= amount; i++) {
+  for (let i = 1; i <= amount; i += 1) {
     const position = i;
     createPromise(position, delay);
-    delay = delay + step;
   }
+  delay = delay + step;
 }
 
 function createPromise(position, delay) {
