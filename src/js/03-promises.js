@@ -22,8 +22,8 @@ function handlerSubmit(evt) {
   for (let i = 1; i <= amount; i += 1) {
     const position = i;
     createPromise(position, delay);
+    delay = delay + step;
   }
-  delay = delay + step;
 }
 
 function createPromise(position, delay) {
