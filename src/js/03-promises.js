@@ -20,9 +20,9 @@ function handlerSubmit(evt) {
   // console.log(amount);
 
   for (let i = 1; i <= amount; i += 1) {
-    const position = i;
-    createPromise(position, delay);
-    delay = delay + step;
+    // const position = i;
+    createPromise(i, delay);
+    delay += step;
   }
 }
 
